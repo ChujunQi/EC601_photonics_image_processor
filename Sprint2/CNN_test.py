@@ -38,3 +38,10 @@ faces_rects = haar_cascade_face.detectMultiScale(image, scaleFactor = 1.2, minNe
 
 # Let us print the no. of faces found
 print('Faces found: ', len(faces_rects))
+
+for (x,y,w,h) in faces_rects:
+     cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
+
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+# as opencv loads in BGR format by default, we want to show it in RGB.
+plt.show()

@@ -14,7 +14,7 @@ Maximum pooling is a pooling operation that calculates the maximum, or largest, 
 Dense layers are layers that are deeply connected with their preceding layers, which means the neurons of the layer are connected to every neuron of its preceding layer.
 
 ## What we have done? 
-Now we have built our sample CNN, photonics layers, a FFT to speed up our CNN, 
+Now we have built our sample CNN, photonics layers, a FFT to speed up our CNN.
 ## Future Sprints
 1. Try to complete our photonic part.
 2. Consider how to connect CNN and our photonic accelerator. 

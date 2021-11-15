@@ -135,8 +135,8 @@ class _FFTConv(nn.Module):
         )
 
 
-oneDem = partial(_FFTConv, ndim=1)
-twoDem = partial(_FFTConv, ndim=2)
-threeDem = partial(_FFTConv, ndim=3)      
+oneDemFFT = partial(_FFTConv, ndim=1)
+twoDemFFT = partial(_FFTConv, ndim=2)
+threeDemFFT = partial(_FFTConv, ndim=3)      
       
       

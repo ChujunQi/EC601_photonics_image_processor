@@ -5,10 +5,13 @@
 In sprint 3, we built FFT(Fast Fourier Transform) layers for our CNN. If we only use filters and kernels, the speed of our system would be slow when we try to train a large number of data, which is O(n^2). In the real time analysis, it might take even a few hours. However, after using computing FFT for kernels of CNN, the speed will be increased to O(nlogn). 
 
 ### VGG16
+VGG16 is a convolutional neural network for large image recognition.
 
-
-
+## What we have done? 
+Now we have built our sample CNN, photonics layers, a FFT to speed up our CNN, 
 ## Future Sprints
-
+1. Try to complete our photonic part.
+2. Consider how to connect CNN and our photonic accelerator. 
+3. Learn how to use photonics simulator online.
 
 

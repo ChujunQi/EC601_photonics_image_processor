@@ -91,15 +91,8 @@ def fft_conv(
 
 class _FFTConv(nn.Module):
     def __init__(
-        self,
-        in_channels: int,
-        out_channels: int,
-        kernel_size: Union[int, Iterable[int]],
-        padding: Union[int, Iterable[int]] = 0,
-        stride: Union[int, Iterable[int]] = 1,
-        groups: int = 1,
-        bias: bool = True,
-        ndim: int = 1,
+        self, in_channels: int, out_channels: int, kernel_size: Union[int, Iterable[int]], padding: Union[int, Iterable[int]] = 0,
+        stride: Union[int, Iterable[int]] = 1, groups: int = 1, bias: bool = True, ndim: int = 1,
     ):
 
         super().__init__()
@@ -110,13 +103,6 @@ class _FFTConv(nn.Module):
         self.stride = stride
         self.groups = groups
         self.use_bias = bias
-        '''
-        if out_channels % 2 != 0:
-            raise ValueError(
-                "'out_channels' must be divisible by 'groups'."
-                f"Found: out_channels={out_channels}, groups={groups}."
-            )
-        '''
 
         kernel_size = to_ntuple(kernel_size, ndim)
         self.weight = nn.Parameter(

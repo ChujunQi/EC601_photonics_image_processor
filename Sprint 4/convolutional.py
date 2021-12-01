@@ -2,6 +2,7 @@ import os
 import model
 import tensorflow as tf
 
+# download the data
 from tensorflow.examples.tutorials.mnist import input_data
 data = input_data.read_data_sets("/tmp/data/", one_hot=True)
 

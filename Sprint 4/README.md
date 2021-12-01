@@ -27,5 +27,6 @@ Based on our previous CNN model, we plan to replace the first group of layers to
 
 # Second Part
 ## What we have done in sprint 4  
-We have done ResNet and in the first step of building the classification.
+1. We have done ResNet and in the first step of building the classification. 
+2. Already know basic concepts about ONN and trying to add it into our CNN model.
 

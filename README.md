@@ -1,4 +1,7 @@
-# EC601_photonics_image_processing
+# EC601 photonics image processing
+Our code is separated in each sprints. Sprint 2 contains basice CNN code and some tests about ONN(Optical Neural Networks). Sprint 3 have some implementations about VGG 16 and FFT. In sprint 4, we mainly focus on building optical layers and also trying to compare VGG 16, ResNet, and AlexNet. Finally, we use AlexNet to be our basic CNN. 
+
+Resource paper: https://arxiv.org/pdf/1901.03661.pdf
 ## Introduction
 1. We will use CNN for image processing, the type of CNN could be AlexNet, VGG 16, or ResNet. They have different functionalities, but all of them are suitable for image processing.
 2. Try to replace the first group of convolutional layers to optical layers in order to speed up the system.
